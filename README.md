@@ -31,3 +31,5 @@ node donate.js
 node donate.js --amount=0.05
 ```
 
+3. Use my referral : T4722222
+
