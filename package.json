@@ -1,0 +1,22 @@
+{
+  "name": "weed-auto-claim",
+  "version": "1.0.0",
+  "description": "Automated WEED token claim bot",
+  "type": "module",
+  "main": "claim-bot.js",
+  "scripts": {
+    "start": "node claim-bot.js",
+    "find": "node find-accounts.js"
+  },
+  "keywords": ["solana", "weed", "claim", "bot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
