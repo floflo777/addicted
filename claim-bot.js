@@ -9,7 +9,7 @@ const WEED_PROGRAM_ID = '5f6jnqJUNkUvWvwuqvTvmbQS1REjSsgTtZ75KercWNnG';
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const CHECK_INTERVAL = 30 * 60 * 1000;
 const CACHE_FILE = 'accounts-cache.json';
-const SCAN_DELAY = 1000;
+const SCAN_DELAY = 5000;
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
