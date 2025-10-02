@@ -18,3 +18,16 @@ cp .env.example .env
 ```bash
 npm start
 ```
+
+## Donation
+
+1. Donate 0.01 SOL
+```bash
+node donate.js
+```
+
+2. Donate a custom amount
+```bash
+node donate.js --amount=0.05
+```
+
